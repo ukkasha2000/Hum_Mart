@@ -1,0 +1,11 @@
+.CategoriesCardImage{
+    max-width: 100%;
+    min-width: 80%;
+    height: 150px;
+}
+.productButton{
+    font-size: 20px;
+    height: auto;
+    padding: 2px;
+    padding-top: 0px;
+}

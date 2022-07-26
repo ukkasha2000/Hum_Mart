@@ -1,0 +1,22 @@
+.carouselImage{
+    width: 90%;
+    /* height: auto; */
+    height: 500px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carouselImage{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 991.5px) {
+    .carouselImage{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 599.5px) {
+    .carouselImage{
+        height: 225px;
+    }
+}

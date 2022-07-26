@@ -1,0 +1,52 @@
+marquee{
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+    font-weight: 600;
+}
+.humMartLogo{
+    padding: 15px;
+}
+.backButton{
+    float: right;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.backButton:hover{
+    transform:scale(1.2);
+}
+.backButtonArrow{
+    font-size: 30px;
+}
+.placeOrderMainDiv{
+    border: 0.5px solid gray;
+    margin-bottom: 2rem;
+}
+.placeOrderFormDivLeft{
+    border-right: 0.5px solid gray;
+    padding: 1.5rem;
+}
+.placeOrderFormDivRight{
+    padding: 1.5rem;
+}
+.placeOrderButtonDiv{
+    float: right;
+}
+.placeOrderButton{
+    padding: 0.25rem 1.5rem;
+    background-color: #7AB122;
+    color: white;
+    border-color: #557c15;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+.placeOrderButton:hover{
+    background-color: white;
+    color: #7AB122;
+}
+.cancelOrderButton:hover{
+    color: red;
+}

@@ -1,0 +1,19 @@
+.CategoryMainImage{
+    width: 100%;
+    height: 700px;
+}
+@media only screen and (max-width: 992px) {
+    .CategoryMainImage{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .CategoryMainImage{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .CategoryMainImage{
+        height: 200px;
+    }
+}

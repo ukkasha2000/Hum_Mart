@@ -1,0 +1,65 @@
+.ProductMaincard{
+    height: 100% ;
+}
+.productButtonMainSpan{
+    float: right;
+    margin-top: 0.5rem;
+}
+.productButton{
+    border-radius: 25px !important;
+    background-color: #E96025 !important;
+    color: white !important;
+    padding: 0 1.5rem !important;
+    position: relative !important;
+    top: -5px !important;
+}
+.productPrice{
+    font-weight: 700;
+    font-size: 16px;
+}
+.imgcard{
+    height: 300px;
+}
+.productButtonSpan{
+    display: block;
+}
+.productButtonSpanTwo{
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .imgcard{
+        height: 200px;
+    }
+    .productTitle{
+        font-size: 1rem;
+    }
+    .productPrice{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .imgcard{
+        height: 150px;
+    }
+    .productTitle{
+        font-size: 0.8rem;
+    }
+    .productPrice{
+        font-size: 12px;
+    }
+    .productButtonSpan{
+        display: none !important;
+    }
+    .productButtonSpanTwo{
+        display: block !important;
+    }
+    .productButton{
+        padding: 0 0.7rem !important;
+    }
+    .productButtonMainSpan{
+        margin-top: -30px;
+        margin-right: -15px;
+    }
+}

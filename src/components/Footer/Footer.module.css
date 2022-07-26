@@ -1,0 +1,38 @@
+.footerSection{
+    background-color: #7AB022 !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footerColumnHeading{
+    color: white;
+}
+.footerColumnListItem{
+    color: white !important;
+    border-bottom: none !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.footerColumnListItemIcon{
+    position: relative;
+    top: -1px;
+    font-size: 18px;
+    color: white;
+}
+.footerAppDownloadButtons{
+    width: 75%;
+    margin-left: 1rem;
+}
+.footerAppDownloadButtons:hover{
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footerColumnListItem,.footerColumnListItemIcon{
+        font-size: 14px;
+    }
+    .footerSection{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}

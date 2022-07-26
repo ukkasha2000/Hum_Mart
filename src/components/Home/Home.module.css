@@ -1,0 +1,22 @@
+.mobilePhoneSection,.electronicAppliancesSection,.grocerySection,.fruitsVegSection,.categoriesSection,.aboutUsSection{
+    background-color: #F3F3F3;
+    padding: 20px 0px;
+    margin-bottom: 5rem;
+}
+.mobilePhoneHeading,.electronicAppliancesHeading,.groceryHeading,.fruitsVegHeading,.categoriesHeading{
+    border-bottom: 1px solid grey !important;
+    padding-bottom: 1rem;
+    cursor: default;
+    margin-bottom: 2rem;
+}
+.HeaderLeftImage{
+    width: 100% !important;
+}
+.containerCardsRow{
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767.5px) {
+    /* .HeaderLeftImagesDivider{
+        display: none;
+    }  */
+}

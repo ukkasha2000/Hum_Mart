@@ -1,0 +1,27 @@
+.headline_div{
+    width: 100%;
+    background-color:black;
+}
+.headline_div>marquee{
+    color: white;
+    padding: 0.3rem;
+    font-weight: 600;
+}
+.contact_div{
+    background-color: #EEEEEE;
+}
+.contact_div>.row>.offset-10>p{
+    margin-bottom: 0px !important;
+}
+.customer_care_text{
+    margin-bottom: 0px;
+    padding: 2px 0px;
+    font-size: 15px;
+    float: right;
+}
+@media only screen and (max-width: 768px) {
+    .customer_care_text{
+        float: none;
+        text-align: center;
+    }
+}

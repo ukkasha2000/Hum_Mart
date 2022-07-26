@@ -1,0 +1,212 @@
+{
+    "categories": [
+        {
+            "id": "cat1",
+            "imgsrc": "https://www.whatmobile.com.pk/control/news/assets/28122019/a7b7971babd304d922a73b25328aa65d_meta.jpg",
+            "productTitle": "Mobile Phones",
+            "linkTo": "mobiles"
+        },
+        {
+            "id": "cat2",
+            "imgsrc": "http://studentsheart.com/wp-content/uploads/2018/10/Electronic-Gadgets.jpg",
+            "productTitle": "Electronic Devices",
+            "linkTo": "electronics"
+        },
+        {
+            "id": "cat3",
+            "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKkJF2PaKaP-47RZ8xSELr-oyHwh44EvgOYA&usqp=CAU",
+            "productTitle": "Grocery Items",
+            "linkTo": "groceryitems"
+        },
+        {
+            "id": "cat4",
+            "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrze6YgEOUkpBVygJ4r2nujU1dmBU0HPkdIw&usqp=CAU",
+            "productTitle": "Fruits",
+            "linkTo": "farmfreshitems"
+        },
+        {
+            "id": "cat5",
+            "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo4phFSUOJotJq16-sgbAn1Ae4bsiyryEUtJ9Bx-vt9nVpG4wBI8i15WqO5m8NTbo2TE0&usqp=CAU",
+            "productTitle": "Vegetables",
+            "linkTo": "mobiles"
+        },
+        {
+            "id": "cat6",
+            "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Xm0N5s2ltbpkGuzgKGIoAkIQ7oBlWBynyN16aFyCgq7ElT07cBz-hLBAHkOfWdIRZOQ&usqp=CAU",
+            "productTitle": "Chocolates",
+            "linkTo": "mobiles"
+        },
+        {
+            "id": "cat7",
+            "imgsrc": "https://www.augsburger-allgemeine.de/img/bilder/crop59814516/4409422665-cv16_9-w940-owebp/AdobeStock-362352205-von-Tartila?t=.jpg",
+            "productTitle": "Medicines",
+            "linkTo": "mobiles"
+        }
+    ],
+    "products": [
+        {
+            "mobilePhones": [
+                {
+                    "id": "mob1",
+                    "imgsrc": "http://cdn.shopify.com/s/files/1/0507/0844/7408/products/WechatIMG1322_1200x1200.jpg?v=1646323246",
+                    "productTitle": "Iphone 13 Pro Max",
+                    "productPrice": 320000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "mob2",
+                    "imgsrc": "https://www.pakmobizone.pk/wp-content/uploads/2022/02/Samsung-Galaxy-S22-Ultra-5G-Green-8.jpg",
+                    "productTitle": "Samsung S22 Ultra",
+                    "productPrice": 250000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "mob3",
+                    "imgsrc": "https://www.pakmobizone.pk/wp-content/uploads/2021/10/Realme-GT-Master-Edition-Voyager-Grey-1.png",
+                    "productTitle": "Realme GT ME",
+                    "productPrice": 60000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "mob4",
+                    "imgsrc": "https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1651807558189/e7db3841bf6db0ac7a6f58948e8ab515.png",
+                    "productTitle": "Vivo X80 Pro",
+                    "productPrice": 160000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "mob5",
+                    "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nDB9RiPFQ41H532Mh_4YFYpaiVaJM1rILQ&usqp=CAU",
+                    "productTitle": "Xiaomi 11T Pro",
+                    "productPrice": 120000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "mob6",
+                    "imgsrc": "https://www.pakmobizone.pk/wp-content/uploads/2021/10/Apple-iphone-13-Pink-2.png",
+                    "productTitle": "Iphone 13",
+                    "productPrice": 240000,
+                    "qtyInCart": 1
+                }
+            ],
+            "electronicDevices": [
+                {
+                    "id": "electronic1",
+                    "imgsrc": "https://www.pngplay.com/wp-content/uploads/8/Automatic-Washing-Machine-PNG-Images-HD.png",
+                    "productTitle": "Washing Machine",
+                    "productPrice": 55000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "electronic2",
+                    "imgsrc": "https://www.pngall.com/wp-content/uploads/5/Full-HD-LED-TV-PNG-Download-Image.png",
+                    "productTitle": "LED TV",
+                    "productPrice": 90000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "electronic3",
+                    "imgsrc": "https://img.freepik.com/free-vector/best-air-conditioner-illustration_1284-11782.jpg?w=360",
+                    "productTitle": "LG AC",
+                    "productPrice": 115000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "electronic4",
+                    "imgsrc": "https://www.downloadclipart.net/large/two-door-refrigerator-png-transparent-image.png",
+                    "productTitle": "Refriggerator",
+                    "productPrice": 70000,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "electronic5",
+                    "imgsrc": "https://pakref.com/wp-content/uploads/2021/09/Dawlance-Microwave-Oven-DW-131HP-30-LTR.jpg",
+                    "productTitle": "Dawlance Microwave",
+                    "productPrice": 40000,
+                    "qtyInCart": 1
+                }
+            ],
+            "fruitsAndVegetables": [
+                {
+                    "id": "fruitsveg1",
+                    "imgsrc": "https://pictures.grocerapps.com/original/grocerapp-onion--627cdb56a30aa.jpeg",
+                    "productTitle": "Onion",
+                    "productPrice": 50,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "fruitsveg2",
+                    "imgsrc": "https://www.macmillandictionary.com/external/slideshow/full/141151_full.jpg",
+                    "productTitle": "Potato",
+                    "productPrice": 100,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "fruitsveg3",
+                    "imgsrc": "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
+                    "productTitle": "Tomato",
+                    "productPrice": 150,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "fruitsveg4",
+                    "imgsrc": "https://cdn.mos.cms.futurecdn.net/hs9SXtnxhiB8ZT5SyWSbBb-1024-80.jpg.webp",
+                    "productTitle": "Ginger",
+                    "productPrice": 300,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "fruitsveg5",
+                    "imgsrc": "https://pictures.grocerapps.com/original/grocerapp-desi-green-chilli--627d071a6879b.jpeg",
+                    "productTitle": "Green Chilli",
+                    "productPrice": 400,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "fruitsveg6",
+                    "imgsrc": "https://static-01.daraz.pk/p/c90bd9ca601c8096c6f89009dbdf98d4.jpg",
+                    "productTitle": "Lady Finger",
+                    "productPrice": 120,
+                    "qtyInCart": 1
+                }
+            ],
+            "groceryItems": [
+                {
+                    "id": "grocery1",
+                    "imgsrc": "https://grocerybazaar.pk/wp-content/uploads/2020/04/ss-1.jpg",
+                    "productTitle": "Kausar Cooking Oil",
+                    "productPrice": 3500,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "grocery2",
+                    "imgsrc": "https://i.pinimg.com/originals/21/71/3d/21713df828334104a38b2ae0ce109a6d.jpg",
+                    "productTitle": "Basmati Rice",
+                    "productPrice": 2100,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "grocery3",
+                    "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWixIUYy-U4TFqp25dAeH1LLe2MudVkEjxrn_vAjpcFwxZU5LiKykvUsgqE4m4PczV828&usqp=CAU",
+                    "productTitle": "Aata Chakki",
+                    "productPrice": 800,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "grocery4",
+                    "imgsrc": "https://m.media-amazon.com/images/I/71hFwEGKyZL._SX522_.jpg",
+                    "productTitle": "Daal Channa",
+                    "productPrice": 300,
+                    "qtyInCart": 1
+                },
+                {
+                    "id": "grocery5",
+                    "imgsrc": "https://i.pinimg.com/564x/3f/e9/4b/3fe94ba3dc21a16c80a444e2986df957.jpg",
+                    "productTitle": "Maida",
+                    "productPrice": 600,
+                    "qtyInCart": 1
+                }
+            ]
+        }
+    ]
+}

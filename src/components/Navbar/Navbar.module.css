@@ -1,0 +1,35 @@
+.navbarMainDiv{
+    background-color: #7BAF23;
+}
+/* .navbarUL{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem !important;
+} */
+.navbarUL{
+    width: 100%;
+    justify-content: space-between;
+}
+.navbarListItemLink{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+.navbarListItemLink:hover{
+    color: black !important;
+}
+@media only screen and (max-width: 991.5px) {
+    .navbarMainDiv{
+        width: 100%;
+        position: absolute !important;
+        z-index: 999 !important;
+    }
+    .smallScreenMargin{
+        margin-top: 5rem;
+    }
+}

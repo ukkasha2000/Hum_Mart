@@ -1,0 +1,11 @@
+.mobilePhoneSection{
+    background-color: #F3F3F3;
+    padding: 20px 0px;
+    margin-bottom: 5rem;
+}
+.mobilePhoneHeading{
+    border-bottom: 1px solid grey !important;
+    padding-bottom: 1rem;
+    cursor: default;
+    margin-bottom: 2rem;
+}
