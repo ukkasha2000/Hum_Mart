@@ -48,9 +48,14 @@ const CartDrawer = ({ visibility, setVisible}) => {
   return (
     <>
       <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={visibility}>
-        {cart.map((item) => (
+        {
+        cart.length!==0 ?
+        cart.map((item) => (
           <CartCard key={item.id} itemData={item}/>
-        ))}
+        ))
+      :
+      <h4 style={{color:"red"}}>Your Cart Is Empty</h4>
+      }
         <div>
           <h5 className='mt-3'>Sub Total: <span style={{float:'right'}}>Rs: {totalPrice.toString()}/- </span></h5>
           <button className={style.placeOrderButton}  onClick={() => placeOrderFunc()}>Continue To Checkout</button>

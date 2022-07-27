@@ -17,11 +17,11 @@ const PlaceOrder = () => {
     }
     const { cart } = useSelector((state) => state.shopReducer);
     const dispatch = useDispatch();
-    const date = new Date().getTime();
     const [totalPrice, setTotalPrice] = useState(0);
     const [totalItems, setTotalItems] = useState([]);
+    const date = new Date();
+    let time = date.getTime();
     const [input, setInput] = useState({
-        // id:date,
         name: "",
         email: "",
         address: "",
@@ -30,9 +30,9 @@ const PlaceOrder = () => {
         postalcode: "",
         country: "",
         totalAmount: totalPrice,
-        items: totalItems
+        items: totalItems,
+        orderTime:time
     });
-    const [resp, setResp] = useState([]);
 
     useEffect(() => {
         let total = 0;
@@ -44,21 +44,23 @@ const PlaceOrder = () => {
         setTotalPrice(total);
         setTotalItems(itemsInCart);
     }, [cart]);
-    // console.log(totalItems);
     useEffect(() => {
         setInput({ ...input, totalAmount: totalPrice, items: totalItems });
     }, [totalPrice, totalItems]);
-    // console.log(input.totalAmount,totalPrice);
 
     const handleSubmit = (e) => {
+        time = date.getTime();
         e.preventDefault();
-        dispatch(placeOrder(input,setInput,setResp));
-        // setResp(...resp);
-        // console.log(resp,"XXX");
-        // navigate('/');
+        setInput({orderTime:time,...input});
+        // setInput(input);
+        dispatch(placeOrder(input, (data) => {
+            console.log(input);
+            if (data == true) {
+                setInput({ name: "", email: "", address: "", city: "", phone: "", postalcode: "", country: "", totalAmount: 0, items: {},orderTime:0 });
+                navigate('/');
+            }
+        }));
     }
-    // useEffect(()=>{
-    // },[resp]);
 
     return (
         <>
@@ -78,6 +80,9 @@ const PlaceOrder = () => {
                     <div className={`col-lg-6 col-12 ${style.placeOrderFormDivLeft}`}>
                         <div className="container-fluid">
                             <h3>Enter Address Details</h3>
+
+
+                            {/* Place Order Form */}
 
                             <form className="form-horizontal pt-4" role="form" onSubmit={handleSubmit}>
                                 <div className="form-group row">

@@ -57,14 +57,8 @@ const shopReducer = (state = INITIAL_STATE, action) => {
             }
 
         case CLEAR_CART:
-        //     if (state.cart.length > 0) {
-        //         alert("Congratulations!!! Your Order Has Been Placed Successfully");
-                return { ...state, cart: [] };
-        //     }
-        //     else {
-        //         alert("There are No Items In Cart");
-        //     }
-        //     return { ...state };
+            return { ...state, cart: [] };
+
 
 
         default: return state;
