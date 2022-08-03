@@ -1,3 +1,11 @@
+An Online Ecommerce website, with functionality of add to cart products, increase/decrease the quantity of products in cart, delete products from cart, place the order, and cancel the order within one hour of order placement. 
+
+CRUD Operations performed on REST API with url http://localhost:8888/
+
+JSON Fake Server is used.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
